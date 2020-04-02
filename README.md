@@ -40,6 +40,9 @@ java.net.URL의 접두어 혹은 'classpath:'를 사용할 수 있다. <br/>
 ● classpath:sombrero/config.xml -> ClassPathResource <br/>
 ● file:///sombrero/config.xml -> FileSystemResource <br/>
 (대부분은 어떤 ApplicationContext를 사용하는지 알기 어렵기 때문에 명시적으로 접두어를 쓰는 것을 권장.)<br/>
+(그리고 ServletContextResource는 웹 애플리케이션 루트부터 찾는데
+스프링부트의 내장형 톰캣에는 context path가 지정되어 있지 않다. 따라서 리소스를 찾을 수 없다.<br/>
+때문에 이와 관련해서도 역시나 'classpath:'와 같이 접두어를 사용하는 것을 권장한다.)<br/>
 
 <pre>
 var ctx = new ClassPathXmlApplicationContext("test.xml");
