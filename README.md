@@ -39,6 +39,7 @@ java.net.URL의 접두어 혹은 'classpath:'를 사용할 수 있다. <br/>
 <br/>
 ● classpath:sombrero/config.xml -> ClassPathResource <br/>
 ● file:///sombrero/config.xml -> FileSystemResource <br/>
+(대부분은 어떤 ApplicationContext를 사용하는지 알기 어렵기 때문에 명시적으로 접두어를 쓰는 것을 권장.)<br/>
 
 <pre>
 var ctx = new ClassPathXmlApplicationContext("test.xml");
