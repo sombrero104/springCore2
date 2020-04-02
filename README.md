@@ -25,6 +25,7 @@
 (4) ServletContextResource: 웹 애플리케이션 루트에서 상대 경로로 리소스 찾는다. <br/>
 > 주로 WebApplicationContext의 구현체인 GenericWebApplicationContext를 사용하기 때문에<br/>
 이에 해당하는 ServletContextResource를 많이 사용하게 된다.<br/>
+(Resource의 타입은 ApplicationContext의 타입에 따라 결정된다.)<br/>
 
 ### 리소스 읽어오기
 Resource의 타입은 location 문자열과 ApplicationContext의 타입에 따라 결정된다.<br/>
