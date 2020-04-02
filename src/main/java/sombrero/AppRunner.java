@@ -64,7 +64,7 @@ public class AppRunner implements ApplicationRunner {
          * 위의 test.xml는 'classpath:test.xml'과 같다.
          */
 
-        var ctx2 = new FileSystemXmlApplicationContext("test.xml");
+        var ctx2 = new FileSystemXmlApplicationContext("/src/main/resources/test.xml");
         /**
          * 위의 test.xml는 추상화된 FileSystemResource로 내부적으로 변환이 된다.
          * FileSystemXmlApplicationContext는 파일시스템 기준으로 리소스를 찾는다.
