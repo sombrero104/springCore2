@@ -8,6 +8,9 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Component;
 
+import java.nio.file.Files;
+import java.nio.file.Path;
+
 @Component
 public class AppRunner2 implements ApplicationRunner {
 
@@ -52,6 +55,17 @@ public class AppRunner2 implements ApplicationRunner {
          */
         Resource resource2 = resourceLoader.getResource("test.txt");
         System.out.println("# Resource(no prefix): " + resource2.getClass());
+
+        /**
+         * ServletContextResource는 웹 애플리케이션 루트부터 찾는다. (context path)
+         * 그런데 스프링부트의 내장형 톰캣에는 context path가 지정되어 있지 않다.
+         * 따라서 리소스를 찾을 수가 없다. (exists가 false로 찍힘.)
+         * 때문에 파일을 읽으려서 시도할 때 없는 파일을 읽으려고 하기 때문에 에러가 발생한다.
+         * 때문에 'classpath:' 접두어를 사용하는 것을 권장.
+         */
+        /*System.out.println("# Resource(no prefix) exists: " + resource2.exists());
+        System.out.println("# Resource(no prefix) description: " + resource2.getDescription());
+        System.out.println("# Resource(no prefix) content: " + Files.readString(Path.of(resource2.getURI())));*/
     }
 
 }
