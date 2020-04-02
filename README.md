@@ -62,5 +62,14 @@ var ctx2 = new FileSystemXmlApplicationContext("/src/main/resources/test.xml");
 <br/><br/>
 
 # Validation 추상화
+- org.springframework.validation.Validator
+- 애플리케이션에서 사용하는 객체 검증용 인터페이스.
+
+### Validation 특징
+- 어떠한 계층과도 관계가 없다. => 모든 계층(웹, 서비스, 데이터)에서 사용해도 좋다.
+- 구현체 중 하나로, JSR-303(Bean Validation 1.0)과 JSR-349(Bean Validation 1.1)을 지원한다.
+(LocalValidatorFactoryBean)
+- DataBinder에 들어가 바인딩 할 때 같이 사용되기도 한다.
+
 
 <br/><br/>
