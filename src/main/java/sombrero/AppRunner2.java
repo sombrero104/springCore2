@@ -14,6 +14,12 @@ public class AppRunner2 implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
+        /**
+         * 현재 사용중인 ApplicationContext를 알아낼 수 있다.
+         *
+         * 출력 결과:
+         *   class org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext
+         */
         System.out.println("# ApplicationContext: " + applicationContext.getClass());
     }
 
