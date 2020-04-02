@@ -57,3 +57,7 @@ var ctx2 = new FileSystemXmlApplicationContext("/src/main/resources/test.xml");
 </pre>
 
 <br/><br/>
+
+# Validation 추상화
+
+<br/><br/>
