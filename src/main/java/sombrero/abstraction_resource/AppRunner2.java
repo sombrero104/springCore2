@@ -1,4 +1,4 @@
-package sombrero;
+package sombrero.abstraction_resource;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -7,9 +7,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Component;
-
-import java.nio.file.Files;
-import java.nio.file.Path;
 
 @Component
 public class AppRunner2 implements ApplicationRunner {
