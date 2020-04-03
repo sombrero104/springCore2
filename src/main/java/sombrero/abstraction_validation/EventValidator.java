@@ -24,7 +24,18 @@ public class EventValidator implements Validator {
      */
     @Override
     public void validate(Object o, Errors errors) {
+        /**
+         * (1) ValidationUtils를 사용해서 검증하는 방법.
+         */
         ValidationUtils.rejectIfEmptyOrWhitespace(errors, "title", "notempty", "Empty title is not allowed.");
+
+        /**
+         * (2) ValidationUtils를 사용하지 않고 검증하는 로직을 작성하는 방법.
+         */
+        Event event = (Event)o;
+        if(event.getTitle() == null) {
+            errors.rejectValue("title", "notempty", "Empty title is not allowed.");
+        }
     }
 
 }
