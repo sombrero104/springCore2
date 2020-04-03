@@ -71,7 +71,7 @@ var ctx2 = new FileSystemXmlApplicationContext("/src/main/resources/test.xml");
 (LocalValidatorFactoryBean)
 - DataBinder에 들어가 바인딩 할 때 같이 사용되기도 한다.
 
-#### ** Bean Validation
+#### ** Bean Validation 이란
 Java 표준 스펙 중 하나.<br/>
 빈에 있는 데이터를 검증할 수 있는 기능.<br/>
 <br/>
