@@ -104,7 +104,8 @@ Java 표준 스펙 중 하나.<br/>
 - 스프링 3.0 이전까지 DataBinder가 변환 작업 사용하던 인터페이스.
 - 스레드-세이프 하지 않음. (상태 정보를 저장하고 있음. 따라서 싱글톤 빈으로 사용하면 안됨.)
 
-> PropertyEditor가 받은 객체를 getValue()로 가져올 수 있음.<br/>
+> ** 주의 <br/>
+PropertyEditor가 받은 객체를 getValue()로 가져올 수 있음.<br/>
 PropertyEditor가 가지고 있는 값은 서로 다른 스레드끼리 공유가 됨. (stateful(상태 유지), 상태 정보를 저장하고 있음.)<br/>
 스레드-세이프 하지 않음.<br/>
 때문에 PropertyEditor는 빈으로 등록하면 안됨. (여러 스레드가 공유하도록 사용하면 안됨.)<br/>
