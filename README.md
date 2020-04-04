@@ -94,7 +94,6 @@ Java 표준 스펙 중 하나.<br/>
 <br/><br/>
 
 # 데이터 바인딩 추상화
-### org.springframework.validation.DataBinder 인터페이스
 <br/>
 
 ### 데이터 바인딩
