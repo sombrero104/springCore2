@@ -96,9 +96,24 @@ Java 표준 스펙 중 하나.<br/>
 사용자가 입력하는 값은 주로 문자열인데 그 문자열을 객체가 가지고 있는 다양한 프로퍼티 타입(int, long, Boolean, Date 등)<br/>
 혹은 Event, Book과 같은 도메인 타입으로 변환해서 넣어주는 기능.<br/>
 <br/>
-### PropertyEditor
+### 데이터 바인딩
 - 예전의 ApplicationContext xml 설정을 사용했을 때 xml에 설정한 문자열을 빈이 가지고 있는 적절한 타입으로 변환해서 넣어줄때도 사용.<br/>
 - SpEL(Spring Expression Language)에서도 사용.<br/>
+<br/>
+### PropertyEditor
+- 스프링 3.0 이전까지 DataBinder가 변환 작업 사용하던 인터페이스.
+- 스레드-세이프 하지 않음. (상태 정보를 저장하고 있음. 따라서 싱글톤 빈으로 사용하면 안됨.)
+> PropertyEditor가 받은 객체를 getValue()로 가져올 수 있음.<br/>
+PropertyEditor가 가지고 있는 값은 서로 다른 스레드끼리 공유가 됨. (stateful(상태 유지), 상태 정보를 저장하고 있음.)<br/>
+스레드-세이프 하지 않음.<br/>
+때문에 PropertyEditor는 빈으로 등록하면 안됨. (여러 스레드가 공유하도록 사용하면 안됨.)<br/>
+(1번 회원이 2번 회원의 정보를 변경하고, 2번 회원이 1번 회원의 정보를 변경하는 일이 발생.)<br/>
+때문에 절대로 PropertyEditor는 빈으로 등록해서 쓰면 안됨.<br/>
+(한 스레드에서만 유효한 thread scope의 빈으로 만들어서 사용하는 것은 가능.)<br/>
+- Object와 String 간의 변화만 할 수 있어서 사용 범위가 제한적임.
+
+
+
 
 <br/><br/>
 
