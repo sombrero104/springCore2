@@ -124,7 +124,20 @@ PropertyEditor가 가지고 있는 값은 서로 다른 스레드끼리 공유�
 ## 스프링 3.0 이후
 ### Converter와 Formatter (스프링 3.0 이후)
 
-=> sombrero.abstraction_data_binding.before_spring_3_0 패키지 참조.<br/>
+### Converter
+S 타입을 T 타입으로 변환할 수 있는 매우 일반적인 변환기.<br/>
+상태 정보 없음.(Stateless)<br/>
+스레드-세이프하기 때문에 빈으로 등록할 수도 있다.<br/>
+보통은 빈으로 등록하지 않고 ConverterRegistry에 등록해서 사용.<br/>
+
+### Formatter
+Object와 String 간의 변환을 담당한다.<br/>
+문자열을 Locale에 따라 다국화하는 기능도 제공한다. (optional)<br/>
+스레드-세이프하기 때문에 빈으로 등록할 수도 있다.<br/>
+보통은 빈으로 등록하지 않고 FormatterRegistry에 등록해서 사용.<br/>
+
+
+=> sombrero.abstraction_data_binding.after_spring_3_0 패키지 참조.<br/>
 
 <br/><br/>
 
