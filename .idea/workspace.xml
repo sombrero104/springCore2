@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48b691ac-5dee-4561-82e6-d5922a26ef5f" name="Default Changelist" comment="" />
+    <list default="true" id="48b691ac-5dee-4561-82e6-d5922a26ef5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sombrero/abstraction_data_binding/after_spring_3_0/AppRunner5.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,37 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/abstraction_data_binding/after_spring_3_0/EventFormatter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/abstraction_data_binding/after_spring_3_0/WebConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/abstraction_data_binding/after_spring_3_0/AppRunner5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="148" column="96" selection-start-line="148" selection-start-column="96" selection-end-line="148" selection-end-column="96" />
+            <state relative-caret-position="30">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -118,7 +94,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="581" />
+    <option name="x" value="859" />
     <option name="y" value="23" />
     <option name="width" value="1210" />
     <option name="height" value="967" />
@@ -142,6 +118,11 @@
             <path>
               <item name="springCore2" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCore2" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCore2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCore2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -183,63 +164,6 @@
               <item name="sombrero" type="462c0819:PsiDirectoryNode" />
               <item name="abstraction_data_binding" type="462c0819:PsiDirectoryNode" />
               <item name="after_spring_3_0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCore2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCore2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCore2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCore2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCore2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCore2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCore2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCore2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sombrero" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCore2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCore2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sombrero" type="462c0819:PsiDirectoryNode" />
-              <item name="abstraction_data_binding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCore2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCore2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sombrero" type="462c0819:PsiDirectoryNode" />
-              <item name="abstraction_data_binding" type="462c0819:PsiDirectoryNode" />
-              <item name="after_spring_3_0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCore2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCore2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sombrero" type="462c0819:PsiDirectoryNode" />
-              <item name="abstraction_data_binding" type="462c0819:PsiDirectoryNode" />
-              <item name="before_spring_3_0" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,6 +197,9 @@
       <recent name="sombrero.abstraction_data_binding.after_spring_3_0" />
       <recent name="sombrero.abstraction_validation" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -286,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EventControllerTest.getTest">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -415,9 +342,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="581" y="23" width="1210" height="967" extended-state="0" />
+    <frame x="906" y="23" width="1210" height="967" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34503424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34503424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -430,7 +358,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32914287" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32914287" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32914287" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32914287" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32914287" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -724,8 +652,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="148" column="96" selection-start-line="148" selection-start-column="96" selection-end-line="148" selection-end-column="96" />
+        <state relative-caret-position="346">
+          <caret line="145" column="42" lean-forward="true" selection-start-line="145" selection-start-column="42" selection-end-line="145" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/abstraction_data_binding/after_spring_3_0/AppRunner5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -149,7 +149,11 @@ FormatterRegistry 기능도 하고, ConversionService 기능도 하고,<br/>
 (DefaultFormattingConversionService 클래스가 FormatterRegistry와 ConversionService 인터페이스 모두 구현.)<br/>
 
 ![conversion_service](./images/conversion_service.png)<br/>
+<br/>
 
+#### * 스프링부트에서는..
+웹 애플리케이션인 경우에 DefaultFormattingConversionService를 상속하여 만든<br/>
+**_WebConversionService_** 를 빈으로 등록해준다.<br/>
 
 => sombrero.abstraction_data_binding.after_spring_3_0 패키지 참조.<br/>
 
