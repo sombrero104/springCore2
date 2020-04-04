@@ -238,7 +238,7 @@
       <module name="springCore2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sombrero.abstraction_data_binding.*" />
+          <option name="PATTERN" value="sombrero.abstraction_data_binding.before_spring_3_0.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

@@ -1,4 +1,4 @@
-package sombrero.abstraction_data_binding;
+package sombrero.abstraction_data_binding.before_spring_3_0;
 
 public class Event {
 

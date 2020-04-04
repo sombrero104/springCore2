@@ -119,9 +119,12 @@ PropertyEditor가 가지고 있는 값은 서로 다른 스레드끼리 공유�
 (한 스레드에서만 유효한 thread scope의 빈으로 만들어서 사용하는 것은 가능.)<br/>
 - Object와 String 간의 변화만 할 수 있어서 사용 범위가 제한적임.
 
+=> sombrero.abstraction_data_binding.before_spring_3_0 패키지 참조.<br/>
+
 ## 스프링 3.0 이후
 ### Converter와 Formatter (스프링 3.0 이후)
 
+=> sombrero.abstraction_data_binding.before_spring_3_0 패키지 참조.<br/>
 
 <br/><br/>
 
