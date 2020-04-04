@@ -107,6 +107,7 @@ Java 표준 스펙 중 하나.<br/>
 ### PropertyEditor (스프링 3.0 이전)
 - 스프링 3.0 버전 이전까지 사용하던 인터페이스.
 - 스프링 3.0 이전까지 DataBinder가 변환 작업에 사용하던 PropertyEditor 인터페이스.
+- org.springframework.validation.DataBinder 인터페이스를 통해 PropertyEditor를 사용.
 - 스레드-세이프 하지 않음. (상태 정보를 저장하고 있음. 따라서 싱글톤 빈으로 사용하면 안됨.)
 
 > ** 주의!! <br/>
@@ -135,6 +136,16 @@ Object와 String 간의 변환을 담당한다.<br/>
 문자열을 Locale에 따라 다국화하는 기능도 제공한다. (optional)<br/>
 스레드-세이프하기 때문에 빈으로 등록할 수도 있다.<br/>
 보통은 빈으로 등록하지 않고 FormatterRegistry에 등록해서 사용.<br/>
+
+### ConversionService
+
+- ConversionService를 통해 Converter와 Formatter를 사용.<br/>
+(Converter와 Formatter가 ConversionService에 등록된다.)<br/>
+- 실제 변환 작업은 이 인터페이스를 통해서 스레드-세이프하게 사용할 수 있음.
+- 스프링 MVC, 빈(value) 설정, SpEL에서 사용한다.
+- DefaultFormattingConversionService가<br/>
+FormatterRegistry 기능도 하고, ConversionService 기능도 하고,<br/>
+여러 기본 Converter와 Formatter를 등록해줌.<br/>
 
 
 => sombrero.abstraction_data_binding.after_spring_3_0 패키지 참조.<br/>
