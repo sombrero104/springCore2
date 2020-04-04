@@ -25,8 +25,9 @@ public class EventEditor extends PropertyEditorSupport {
      */
     @Override
     public String getAsText() {
-        Event event = (Event)getValue();
-        return event.getId().toString();
+        return null;
+        /*Event event = (Event)getValue();
+        return event.getId().toString();*/
     }
 
     /**
@@ -34,7 +35,7 @@ public class EventEditor extends PropertyEditorSupport {
      */
     @Override
     public void setAsText(String text) throws IllegalArgumentException {
-        setValue(new Event(Integer.parseInt(text)));
+        // setValue(new Event(Integer.parseInt(text)));
     }
 
 }
