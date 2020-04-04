@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.validation.BeanPropertyBindingResult;
 import org.springframework.validation.Errors;
 
+import javax.sound.midi.SoundbankResource;
 import java.util.Arrays;
 
 @Component
@@ -15,6 +16,7 @@ public class AppRunner3 implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
         Event event = new Event();
         EventValidator eventValidator = new EventValidator();
+        System.out.println("# [abstractio_validation][AppRunner3] eventValidator: " + eventValidator.getClass());
 
         /**
          * 스프링 MVC에서는
@@ -22,9 +24,9 @@ public class AppRunner3 implements ApplicationRunner {
          * 아래처럼 직접 선언해서 사용하는 경우는 없음.
          */
         Errors errors = new BeanPropertyBindingResult(event, "event");
-
         eventValidator.validate(event, errors);
-        System.out.println("# [abstractio_validation] hasErrors: " + errors.hasErrors());
+
+        System.out.println("# [abstractio_validation][AppRunner3] hasErrors: " + errors.hasErrors());
 
         /**
          * 아래 출력결과에서 기존에 추가했던 에러코드인 'notempty' 외에도
@@ -45,6 +47,7 @@ public class AppRunner3 implements ApplicationRunner {
             Arrays.stream(e.getCodes()).forEach(System.out::println);
             System.out.println("# message: " + e.getDefaultMessage());
         });
+        System.out.println("========================================");
     }
 
 }
