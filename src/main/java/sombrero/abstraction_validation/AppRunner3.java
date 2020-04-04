@@ -43,11 +43,11 @@ public class AppRunner3 implements ApplicationRunner {
          *      # message: Empty title is not allowed.
          */
         errors.getAllErrors().forEach(e -> {
-            System.out.println("============== error code ==============");
+            System.out.println("============== [AppRunner3] error code ==============");
             Arrays.stream(e.getCodes()).forEach(System.out::println);
             System.out.println("# message: " + e.getDefaultMessage());
         });
-        System.out.println("========================================");
+        System.out.println("=====================================================");
     }
 
 }

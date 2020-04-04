@@ -24,18 +24,23 @@ public class AppRunner4 implements ApplicationRunner {
          */
         System.out.println("# [abstractio_validation][AppRunner4] validator: " + validator.getClass());
 
-        Event event = new Event();
-        Errors errors = new BeanPropertyBindingResult(event, "event");
-        validator.validate(event, errors);
+        /**
+         * Event2에 애노테이션으로 검증해야 할 내용을 설정해준다.
+         */
+        Event2 event2 = new Event2();
+        event2.setLimit(-1);
+        event2.setEmail("hm..");
+        Errors errors = new BeanPropertyBindingResult(event2, "event");
+        validator.validate(event2, errors);
 
         System.out.println("# [abstractio_validation][AppRunner4] hasErrors: " + errors.hasErrors());
 
         errors.getAllErrors().forEach(e -> {
-            System.out.println("============== error code ==============");
+            System.out.println("============== [AppRunner4] error code ==============");
             Arrays.stream(e.getCodes()).forEach(System.out::println);
             System.out.println("# message: " + e.getDefaultMessage());
         });
-        System.out.println("========================================");
+        System.out.println("=====================================================");
     }
 
 }
