@@ -1,4 +1,4 @@
-package sombrero.abstraction_data_binding;
+package sombrero.abstraction_data_binding.before_spring_3_0;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,7 +21,7 @@ public class EventControllerTest {
 
     @Test
     public void getTest() throws Exception {
-        mockMvc.perform(get("/event/1"))
+        mockMvc.perform(get("/before30/event/1"))
             .andExpect(status().isOk())
             .andExpect(content().string("1"));
     }

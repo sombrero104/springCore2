@@ -15,9 +15,9 @@ public class EventController {
         webDataBinder.registerCustomEditor(Event.class, new EventEditor());
     }*/
 
-    @GetMapping("/event/{event}")
+    @GetMapping("/before30/event/{event}")
     public String getEvent(@PathVariable Event event) {
-        System.out.println("# [EventController] event: " + event);
+        System.out.println("# [before_spring_3_0] [EventController2] event: " + event);
         return event.getId().toString();
     }
 
