@@ -94,9 +94,9 @@ Java 표준 스펙 중 하나.<br/>
 <br/><br/>
 
 # 데이터 바인딩 추상화 (PropertyEditor)
-### org.springframework.validation.DataBinder 인터페이스
 
 ### 데이터 바인딩
+### org.springframework.validation.DataBinder 인터페이스
 어떤 프로퍼티 값을 타겟 객체에 설정하는 기능.<br/>
 사용자가 입력하는 값을 애플리케이션 도메인 객체에 동적으로 할당하는 기능.<br/>
 사용자가 입력하는 값은 주로 문자열인데 그 문자열을 객체가 가지고 있는 다양한 프로퍼티 타입(int, long, Boolean, Date 등)<br/>
