@@ -5,14 +5,22 @@ import org.springframework.format.FormatterRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
- * 이곳에서 추가한 Converter가 모든 컨트롤러에 동작.
+ * 이곳에서 추가한 Converter 또는 Formatter가 모든 컨트롤러에 동작.
  */
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
 
     @Override
     public void addFormatters(FormatterRegistry registry) {
-        registry.addConverter(new EventConverter.StringToEventConverter());
+        /**
+         * (1) Converter 추가하는 방법.
+         */
+        // registry.addConverter(new EventConverter.StringToEventConverter());
+
+        /**
+         * (2) Formatter 추가하는 방법.
+         */
+        registry.addFormatter(new EventFormatter());
     }
 
 }
