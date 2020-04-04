@@ -137,6 +137,8 @@ Object와 String 간의 변환을 담당한다.<br/>
 스레드-세이프하기 때문에 빈으로 등록할 수도 있다.<br/>
 보통은 빈으로 등록하지 않고 FormatterRegistry에 등록해서 사용.<br/>
 
+=> sombrero.abstraction_data_binding.after_spring_3_0 패키지 참조.<br/>
+
 ### ConversionService
 
 - ConversionService를 통해 Converter와 Formatter를 사용.<br/>
@@ -153,8 +155,10 @@ FormatterRegistry 기능도 하고, ConversionService 기능도 하고,<br/>
 #### ** 스프링부트에서는..
 웹 애플리케이션인 경우에 DefaultFormattingConversionService를 상속하여 만든<br/>
 **_WebConversionService_** 를 빈으로 등록해준다.<br/>
+WebConversionService는 DefaultFormattingConversionService를 상속해서 만든 클래스이기 때문에 좀 더 많은 기능을 가지고 있다.<br/>
+=> sombrero.abstraction_data_binding.after_spring_3_0.AppRunner5 클래스 참조.<br/>
 
-=> sombrero.abstraction_data_binding.after_spring_3_0 패키지 참조.<br/>
+
 
 <br/><br/>
 
