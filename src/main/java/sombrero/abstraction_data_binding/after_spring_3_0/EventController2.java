@@ -13,7 +13,7 @@ public class EventController2 {
      *
      * (1) Converter를 추가하는 방법.
      * 보통은 (2)번 처럼 자동으로 변환해주는 기능을 사용하지만
-     * 스프링이 자동으로 변환해주지 않는 타입을 바인딩 할 때에는
+     * 스프링이 기본적으로(자동으로) 변환해주지 않는 타입을 바인딩 할 때에는
      * 이와 같이 Converter를 추가해서 설정하는 방법을 사용.
      */
     @GetMapping("/after30/event/{event}")
