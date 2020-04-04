@@ -150,7 +150,7 @@ FormatterRegistry 기능도 하고, ConversionService 기능도 하고,<br/>
 
 ![conversion_service](./images/conversion_service.png)<br/>
 
-#### * 스프링부트에서는..
+#### ** 스프링부트에서는..
 웹 애플리케이션인 경우에 DefaultFormattingConversionService를 상속하여 만든<br/>
 **_WebConversionService_** 를 빈으로 등록해준다.<br/>
 
