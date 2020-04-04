@@ -59,6 +59,8 @@ var ctx2 = new FileSystemXmlApplicationContext("/src/main/resources/test.xml");
 스프링부트의 내장형 톰캣에는 context path가 지정되어 있지 않다. 따라서 리소스를 찾을 수 없다.<br/>
 때문에 이와 관련해서도 역시나 'classpath:'와 같이 접두어를 사용하는 것을 권장한다.<br/>
 
+=> sombrero.abstraction_resource 패키지 참조.<br/>
+
 <br/><br/>
 
 # Validation 추상화
@@ -86,6 +88,8 @@ Java 표준 스펙 중 하나.<br/>
 - LocalValidatorFactoryBean 빈으로 자동 등록.
 - JSR-380(Bean Validation 2.0.1) 구현체로 hibernate-validator 사용.
 - https://beanvalidation.org
+
+=> sombrero.abstraction_validation 패키지 참조.<br/>
 
 <br/><br/>
 
