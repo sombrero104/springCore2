@@ -386,24 +386,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EventControllerTest_getTest - 2020.04.04 at 19h 03m 19s.xml">
-      <configuration name="EventControllerTest.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventControllerTest_getTest - 2020.04.04 at 19h 04m 33s.xml">
-      <configuration name="EventControllerTest.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventControllerTest_getTest - 2020.04.04 at 19h 06m 10s.xml">
-      <configuration name="EventControllerTest.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventControllerTest_getTest - 2020.04.04 at 19h 06m 27s.xml">
-      <configuration name="EventControllerTest.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventControllerTest_getTest - 2020.04.04 at 20h 13m 39s.xml">
-      <configuration name="EventControllerTest.getTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventController2Test_getTest - 2020.04.04 at 20h 16m 41s.xml">
-      <configuration name="EventController2Test.getTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EventController2Test_getTest2 - 2020.04.04 at 20h 16m 59s.xml">
       <configuration name="EventController2Test.getTest2" configurationId="JUnit" />
     </history-entry>
@@ -415,6 +397,24 @@
     </history-entry>
     <history-entry file="EventControllerTest_getTest - 2020.04.04 at 21h 00m 15s.xml">
       <configuration name="EventControllerTest.getTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventController2Test_getTest2 - 2020.04.05 at 01h 40m 18s.xml">
+      <configuration name="EventController2Test.getTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventController2Test_getTest2 - 2020.04.05 at 01h 41m 41s.xml">
+      <configuration name="EventController2Test.getTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventController2Test - 2020.04.05 at 01h 41m 54s.xml">
+      <configuration name="EventController2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventController2Test - 2020.04.05 at 01h 43m 23s.xml">
+      <configuration name="EventController2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventController2Test - 2020.04.05 at 01h 43m 49s.xml">
+      <configuration name="EventController2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventController2Test - 2020.04.05 at 01h 44m 02s.xml">
+      <configuration name="EventController2Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
