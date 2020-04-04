@@ -95,6 +95,8 @@ Java 표준 스펙 중 하나.<br/>
 사용자가 입력하는 값은 주로 문자열인데 그 문자열을 객체가 가지고 있는 다양한 프로퍼티 타입(int, long, Boolean, Date 등)<br/>
 혹은 Event, Book과 같은 도메인 타입으로 변환해서 넣어주는 기능.<br/>
 <br/>
+- org.springframework.validation.DataBinder
+
 
 
 <br/><br/>
