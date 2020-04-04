@@ -18,6 +18,10 @@ public class AppRunner4 implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
+        /**
+         * 출력 결과:
+         *      class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean
+         */
         System.out.println("# [abstractio_validation][AppRunner4] validator: " + validator.getClass());
 
         Event event = new Event();
