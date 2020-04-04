@@ -95,14 +95,16 @@ Java 표준 스펙 중 하나.<br/>
 
 # 데이터 바인딩 추상화 (PropertyEditor)
 ### org.springframework.validation.DataBinder 인터페이스
+
+### 데이터 바인딩
 어떤 프로퍼티 값을 타겟 객체에 설정하는 기능.<br/>
 사용자가 입력하는 값을 애플리케이션 도메인 객체에 동적으로 할당하는 기능.<br/>
 사용자가 입력하는 값은 주로 문자열인데 그 문자열을 객체가 가지고 있는 다양한 프로퍼티 타입(int, long, Boolean, Date 등)<br/>
 혹은 Event, Book과 같은 도메인 타입으로 변환해서 넣어주는 기능.<br/>
 <br/>
-### 데이터 바인딩
-- 예전의 ApplicationContext xml 설정을 사용했을 때 xml에 설정한 문자열을 빈이 가지고 있는 적절한 타입으로 변환해서 넣어줄때도 사용.<br/>
-- SpEL(Spring Expression Language)에서도 사용.<br/>
+
+> 예전의 ApplicationContext xml 설정을 사용했을 때 xml에 설정한 문자열을 빈이 가지고 있는 적절한 타입으로 변환해서 넣어줄때도 사용.<br/>
+> SpEL(Spring Expression Language)에서도 사용.<br/>
 <br/>
 
 ## 스프링 3.0 이전
