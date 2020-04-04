@@ -148,6 +148,9 @@ FormatterRegistry 기능도 하고, ConversionService 기능도 하고,<br/>
 여러 기본 Converter와 Formatter를 등록해줌.<br/>
 (DefaultFormattingConversionService 클래스가 FormatterRegistry와 ConversionService 인터페이스 모두 구현.)<br/>
 
+![conversion_service](./images/conversion_service.png)<br/>
+
+
 => sombrero.abstraction_data_binding.after_spring_3_0 패키지 참조.<br/>
 
 <br/><br/>
