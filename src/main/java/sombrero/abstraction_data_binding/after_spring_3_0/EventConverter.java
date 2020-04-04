@@ -2,6 +2,7 @@ package sombrero.abstraction_data_binding.after_spring_3_0;
 
 
 import org.springframework.core.convert.converter.Converter;
+import org.springframework.stereotype.Component;
 
 public class EventConverter {
 
