@@ -105,7 +105,7 @@ Java 표준 스펙 중 하나.<br/>
 - SpEL(Spring Expression Language)에서도 사용.<br/>
 
 ### PropertyEditor
-- 스프링 3.0 이전까지 DataBinder가 변환 작업 사용하던 인터페이스.
+- 스프링 3.0 이전까지 DataBinder가 변환 작업에 사용하던 PropertyEditor 인터페이스.
 - 스레드-세이프 하지 않음. (상태 정보를 저장하고 있음. 따라서 싱글톤 빈으로 사용하면 안됨.)
 
 > ** 주의!! <br/>
