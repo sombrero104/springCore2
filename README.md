@@ -103,6 +103,7 @@ Java 표준 스펙 중 하나.<br/>
 ### 데이터 바인딩
 - 예전의 ApplicationContext xml 설정을 사용했을 때 xml에 설정한 문자열을 빈이 가지고 있는 적절한 타입으로 변환해서 넣어줄때도 사용.<br/>
 - SpEL(Spring Expression Language)에서도 사용.<br/>
+<br/>
 
 ## 스프링 3.0 이전
 ### PropertyEditor (스프링 3.0 이전)
@@ -119,9 +120,10 @@ PropertyEditor가 가지고 있는 값은 서로 다른 스레드끼리 공유�
 때문에 절대로 PropertyEditor는 빈으로 등록해서 쓰면 안됨.<br/>
 (한 스레드에서만 유효한 thread scope의 빈으로 만들어서 사용하는 것은 가능.)<br/>
 - Object와 String 간의 변화만 할 수 있어서 사용 범위가 제한적임.
+<br/>
 
 ## 스프링 3.0 이후
-### Converter와 Formatter
+### Converter와 Formatter (스프링 3.0 이후)
 
 
 <br/><br/>
