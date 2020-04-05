@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48b691ac-5dee-4561-82e6-d5922a26ef5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sombrero/abstraction_data_binding/after_spring_3_0/EventFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sombrero/abstraction_data_binding/after_spring_3_0/EventFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sombrero/abstraction_data_binding/after_spring_3_0/EventController2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sombrero/abstraction_data_binding/after_spring_3_0/EventController2Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="48b691ac-5dee-4561-82e6-d5922a26ef5f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,32 +14,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/abstraction_data_binding/after_spring_3_0/EventFormatter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/sombrero/abstraction_data_binding/after_spring_3_0/EventController2Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -386,12 +357,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EventController2Test_getTest2 - 2020.04.04 at 20h 16m 59s.xml">
-      <configuration name="EventController2Test.getTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EventControllerTest_getTest - 2020.04.04 at 20h 17m 12s.xml">
-      <configuration name="EventControllerTest.getTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EventControllerTest_getTest - 2020.04.04 at 20h 21m 48s.xml">
       <configuration name="EventControllerTest.getTest" configurationId="JUnit" />
     </history-entry>
@@ -416,6 +381,12 @@
     <history-entry file="EventController2Test - 2020.04.05 at 01h 44m 02s.xml">
       <configuration name="EventController2Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EventController2Test - 2020.04.05 at 01h 45m 31s.xml">
+      <configuration name="EventController2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventController2Test - 2020.04.05 at 01h 45m 46s.xml">
+      <configuration name="EventController2Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,7 +399,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="706" y="23" width="1210" height="967" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25856164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -437,13 +407,13 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32914287" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33142856" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33142856" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32914287" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32914287" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32914287" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32914287" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32914287" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -751,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sombrero/abstraction_data_binding/after_spring_3_0/EventController2Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="390">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
