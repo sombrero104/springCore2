@@ -183,6 +183,8 @@ String value = expression.getvalue(context, String.class)
 ### SpEL 어디에서 사용?
 - @Value 애노테이션<br/>
 - @ConditionalOnExpression 애노테이션<br/>
+선택적으로 빈을 등록하거나 빈 설정파일을 읽어들이는 애노테이션. <br/>
+SpEL을 사용해서 선별적으로 빈을 등록. <br/>
 - 스프링 시큐리티 <br/>
 메소드 시큐리티, @PreAuthorize, @PostAuthorize, @PreFilter, @PostFilter <br/>
 XML 인터셉터 URL 설정 등. <br/>
