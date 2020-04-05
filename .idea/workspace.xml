@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48b691ac-5dee-4561-82e6-d5922a26ef5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sombrero/SpEL/AppRunner6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sombrero/abstraction_data_binding/after_spring_3_0/AppRunner5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sombrero/abstraction_data_binding/after_spring_3_0/AppRunner5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sombrero/abstraction_resource/AppRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sombrero/abstraction_resource/AppRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sombrero/abstraction_resource/AppRunner2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sombrero/abstraction_resource/AppRunner2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sombrero/abstraction_validation/AppRunner3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sombrero/abstraction_validation/AppRunner3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sombrero/abstraction_validation/AppRunner4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sombrero/abstraction_validation/AppRunner4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sombrero/abstraction_data_binding/after_spring_3_0/AppRunner5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sombrero/abstraction_data_binding/after_spring_3_0/AppRunner5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sombrero/abstraction_resource/AppRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sombrero/abstraction_resource/AppRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sombrero/abstraction_resource/AppRunner2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sombrero/abstraction_resource/AppRunner2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sombrero/abstraction_validation/AppRunner3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sombrero/abstraction_validation/AppRunner3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sombrero/abstraction_validation/AppRunner4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sombrero/abstraction_validation/AppRunner4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sombrero/SpEL/AppRunner6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sombrero/SpEL/AppRunner6.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,14 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/SpEL/AppRunner6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="40" column="71" lean-forward="true" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
+            <state relative-caret-position="184">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="174" column="110" selection-start-line="174" selection-start-column="110" selection-end-line="174" selection-end-column="110" />
             </state>
           </provider>
         </entry>
@@ -99,7 +97,6 @@
         <option value="$PROJECT_DIR$/src/main/java/sombrero/abstraction_data_binding/after_spring_3_0/EventFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/sombrero/abstraction_data_binding/after_spring_3_0/EventConverter.java" />
         <option value="$PROJECT_DIR$/src/test/java/sombrero/abstraction_data_binding/after_spring_3_0/EventController2Test.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/sombrero/abstraction_data_binding/after_spring_3_0/AppRunner5.java" />
         <option value="$PROJECT_DIR$/src/main/java/sombrero/abstraction_resource/AppRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/sombrero/abstraction_resource/AppRunner2.java" />
@@ -107,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/main/java/sombrero/abstraction_validation/AppRunner4.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/sombrero/SpEL/AppRunner6.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -174,15 +172,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sombrero" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springCore2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springCore2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sombrero" type="462c0819:PsiDirectoryNode" />
-              <item name="SpEL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCore2" type="b2602c69:ProjectViewProjectNode" />
@@ -664,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="175" column="10" lean-forward="true" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/abstraction_data_binding/after_spring_3_0/AppRunner5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -764,11 +746,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sombrero/SpEL/AppRunner6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="40" column="71" lean-forward="true" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
+        <state relative-caret-position="184">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="174" column="110" selection-start-line="174" selection-start-column="110" selection-end-line="174" selection-end-column="110" />
         </state>
       </provider>
     </entry>

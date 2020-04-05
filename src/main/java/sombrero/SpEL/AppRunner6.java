@@ -34,6 +34,12 @@ public class AppRunner6 implements ApplicationRunner {
     @Value("#{${my.value} eq 100}")
     boolean isMyValue100;
 
+    @Value("#{'spring'}")
+    String spring;
+
+    @Value("#{sample.data}")
+    int sampleData;
+
     @Override
     public void run(ApplicationArguments args) throws Exception {
         System.out.println("============== [SpEL][AppRunner6] ==============");
@@ -43,6 +49,8 @@ public class AppRunner6 implements ApplicationRunner {
         System.out.println("# [SpEL][AppRunner6] hello: " + hello);
         System.out.println("# [SpEL][AppRunner6] myValue: " + myValue);
         System.out.println("# [SpEL][AppRunner6] isMyValue100: " + isMyValue100);
+        System.out.println("# [SpEL][AppRunner6] spring: " + spring);
+        System.out.println("# [SpEL][AppRunner6] sampleData: " + sampleData);
         System.out.println("================================================");
     }
 

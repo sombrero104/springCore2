@@ -172,5 +172,16 @@ JPA에는 이미 Converter가 이미 들어있음.<br/>
 SpEL은 모든 스프링 프로젝트 전반에 걸쳐 사용할 EL로 만들었다.<br/>
 - 스프링 3.0 부터 지원.<br/>
 
+### SpEL 어디에서 사용?
+- @Value 애노테이션<br/>
+- @ConditionalOnExpression 애노테이션<br/>
+- 스프링 시큐리티 <br/>
+메소드 시큐리티, @PreAuthorize, @PostAuthorize, @PreFilter, @PostFilter <br/>
+XML 인터셉터 URL 설정 등. <br/>
+- 스프링 데이터 <br/>
+Query 애노테이션 <br/>
+- Thymeleaf <br/>
+
+https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions-language-ref <br/>
 
 <br/><br/>
