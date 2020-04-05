@@ -158,7 +158,9 @@ FormatterRegistry 기능도 하고, ConversionService 기능도 하고,<br/>
 WebConversionService는 DefaultFormattingConversionService를 상속해서 만든 클래스이기 때문에 좀 더 많은 기능을 가지고 있다.<br/>
 => sombrero.abstraction_data_binding.after_spring_3_0.AppRunner5 클래스 참조.<br/>
 
-
+#### ** 웹에서는..
+웹에서는 Formatter를 사용하는 것을 추천.<br/>
+JPA에는 이미 Converter가 이미 들어있음.<br/>
 
 <br/><br/>
 
