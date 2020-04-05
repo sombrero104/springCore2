@@ -172,6 +172,14 @@ JPA에는 이미 Converter가 이미 들어있음.<br/>
 SpEL은 모든 스프링 프로젝트 전반에 걸쳐 사용할 EL로 만들었다.<br/>
 - 스프링 3.0 부터 지원.<br/>
 
+### SpEL 구성
+<pre>
+ExpressionParser parser = new SpelExpressionParser()
+StandardEvaluationContext context = new StandardEvaluationContext(bean)
+Expression expression = parser.parseExpression("SpEL 표현식")
+String value = expression.getvalue(context, String.class)
+</pre>
+
 ### SpEL 어디에서 사용?
 - @Value 애노테이션<br/>
 - @ConditionalOnExpression 애노테이션<br/>
