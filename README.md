@@ -188,6 +188,41 @@ Integer value2 = expression.getValue(Integer.class); // 이 때 SpEL도 Conversi
 System.out.println("# [SpEL][AppRunner6] value2: " + value2);
 </pre>
 
+### SpEL 문법
+<pre>
+/**
+ * SpEL
+ *
+ * @Value() 에 단순한 값을 적어도 되고,
+ * '#{}'를 사용하면 표현식으로 인식한다.
+ * '${}'는 프로퍼티를 참고하는 방법이다.
+ */
+
+@Value("#{1 + 1}")
+int value;
+
+@Value("#{'hello ' + 'world'}")
+String greeting;
+
+@Value("#{1 eq 1}")
+boolean trueOrFalse;
+
+@Value("hello")
+String hello;
+
+@Value("${my.value}")
+int myValue;
+
+@Value("#{${my.value} eq 100}")
+boolean isMyValue100;
+
+@Value("#{'spring'}")
+String spring;
+
+@Value("#{sample.data}")
+int sampleData;
+</pre>
+
 ### SpEL 어디에서 사용?
 - @Value 애노테이션<br/>
 - @ConditionalOnExpression 애노테이션<br/>
