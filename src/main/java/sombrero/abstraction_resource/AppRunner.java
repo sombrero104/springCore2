@@ -21,9 +21,9 @@ public class AppRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
         Resource resource = resourceLoader.getResource("classpath:test.txt");
-        System.out.println("# [abstraction_resource] test.txt exists: " + resource.exists());
-        System.out.println("# [abstraction_resource] test.txt description" + resource.getDescription());
-        System.out.println("# [abstraction_resource] test.txt content: " + Files.readString(Path.of(resource.getURI())));
+        // System.out.println("# [abstraction_resource] test.txt exists: " + resource.exists());
+        // System.out.println("# [abstraction_resource] test.txt description" + resource.getDescription());
+        // System.out.println("# [abstraction_resource] test.txt content: " + Files.readString(Path.of(resource.getURI())));
 
         /**
          * [Resource 인터페이스 둘러보기]

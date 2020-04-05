@@ -22,7 +22,7 @@ public class AppRunner4 implements ApplicationRunner {
          * 출력 결과:
          *      class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean
          */
-        System.out.println("# [abstractio_validation][AppRunner4] validator: " + validator.getClass());
+        // System.out.println("# [abstractio_validation][AppRunner4] validator: " + validator.getClass());
 
         /**
          * Event2에 애노테이션으로 검증해야 할 내용을 설정해준다.
@@ -33,14 +33,14 @@ public class AppRunner4 implements ApplicationRunner {
         Errors errors = new BeanPropertyBindingResult(event2, "event");
         validator.validate(event2, errors);
 
-        System.out.println("# [abstractio_validation][AppRunner4] hasErrors: " + errors.hasErrors());
+        /*System.out.println("# [abstractio_validation][AppRunner4] hasErrors: " + errors.hasErrors());
 
         errors.getAllErrors().forEach(e -> {
             System.out.println("============== [AppRunner4] error code ==============");
             Arrays.stream(e.getCodes()).forEach(System.out::println);
             System.out.println("# message: " + e.getDefaultMessage());
         });
-        System.out.println("=====================================================");
+        System.out.println("=====================================================");*/
     }
 
 }

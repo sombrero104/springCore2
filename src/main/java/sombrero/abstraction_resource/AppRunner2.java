@@ -31,7 +31,7 @@ public class AppRunner2 implements ApplicationRunner {
          * 출력 결과:
          *   class org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext
          */
-        System.out.println("# [abstraction_resource] ApplicationContext: " + applicationContext.getClass());
+        // System.out.println("# [abstraction_resource] ApplicationContext: " + applicationContext.getClass());
 
         /**
          * 현재 사용중인 Resource를 출력해보자.
@@ -42,7 +42,7 @@ public class AppRunner2 implements ApplicationRunner {
          *   class org.springframework.core.io.ClassPathResource
          */
         Resource resource = resourceLoader.getResource("classpath:test.txt");
-        System.out.println("# [abstraction_resource] Resource(prefix 'classpath:'): " + resource.getClass());
+        // System.out.println("# [abstraction_resource] Resource(prefix 'classpath:'): " + resource.getClass());
 
         /**
          * (2) 접두어를 명시하지 않을 경우
@@ -51,7 +51,7 @@ public class AppRunner2 implements ApplicationRunner {
          *   class org.springframework.web.context.support.ServletContextResource
          */
         Resource resource2 = resourceLoader.getResource("test.txt");
-        System.out.println("# [abstraction_resource] Resource(no prefix): " + resource2.getClass());
+        // System.out.println("# [abstraction_resource] Resource(no prefix): " + resource2.getClass());
 
         /**
          * ServletContextResource는 웹 애플리케이션 루트부터 찾는다. (context path)
