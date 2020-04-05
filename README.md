@@ -194,6 +194,7 @@ EvaluationContext에서 빈을 만들어주면 빈이 제공하는 함수들을 
 https://docs.spring.io/spring-security/site/docs/3.0.x/reference/el-access.html <br/>
 - 스프링 데이터 <br/>
 Query 애노테이션 <br/>
+https://spring.io/blog/2014/07/15/spel-support-in-spring-data-jpa-query-definitions <br/>
 - Thymeleaf <br/>
 
 https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions-language-ref <br/>
