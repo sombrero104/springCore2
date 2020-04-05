@@ -222,6 +222,7 @@ String spring;
 @Value("#{sample.data}")
 int sampleData;
 </pre>
+=> sombrero.SpEL 패키지 참조. <br/>
 
 ### SpEL 어디에서 사용?
 - @Value 애노테이션<br/>
@@ -240,7 +241,5 @@ Query 애노테이션 <br/>
 https://spring.io/blog/2014/07/15/spel-support-in-spring-data-jpa-query-definitions <br/>
 - Thymeleaf <br/>
 https://blog.outsider.ne.kr/997 <br/>
-
-=> sombrero.SpEL 패키지 참조. <br/>
 
 <br/><br/>
