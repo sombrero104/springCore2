@@ -206,4 +206,6 @@ https://spring.io/blog/2014/07/15/spel-support-in-spring-data-jpa-query-definiti
 - Thymeleaf <br/>
 https://blog.outsider.ne.kr/997 <br/>
 
+=> sombrero.SpEL 패키지 참조. <br/>
+
 <br/><br/>
