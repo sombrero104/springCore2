@@ -172,6 +172,8 @@ JPA에는 이미 Converter가 이미 들어있음.<br/>
 SpEL은 모든 스프링 프로젝트 전반에 걸쳐 사용할 EL로 만들었다.<br/>
 - 스프링 3.0 부터 지원.<br/>
 
+https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions-language-ref <br/>
+
 ### SpEL 구성
 <pre>
 ExpressionParser parser = new SpelExpressionParser()
@@ -198,6 +200,6 @@ https://spring.io/blog/2014/07/15/spel-support-in-spring-data-jpa-query-definiti
 - Thymeleaf <br/>
 https://blog.outsider.ne.kr/997 <br/>
 
-https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions-language-ref <br/>
+
 
 <br/><br/>
