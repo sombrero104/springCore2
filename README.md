@@ -188,6 +188,8 @@ SpEL을 사용해서 선별적으로 빈을 등록. <br/>
 - 스프링 시큐리티 <br/>
 메소드 시큐리티, @PreAuthorize, @PostAuthorize, @PreFilter, @PostFilter <br/>
 XML 인터셉터 URL 설정 등. <br/>
+hasRole(), hasIpAddress() 등 이런 함수들은 EvaluationContext에서 나온다. <br/>
+EvaluationContext에서 빈을 만들어주면 빈이 제공하는 함수들을 쓸 수 있다. <br/>
 https://docs.spring.io/spring-security/site/docs/3.0.x/reference/el-access.html <br/>
 - 스프링 데이터 <br/>
 Query 애노테이션 <br/>
