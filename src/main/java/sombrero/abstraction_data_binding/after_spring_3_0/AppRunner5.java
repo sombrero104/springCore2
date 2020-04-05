@@ -20,7 +20,16 @@ public class AppRunner5 implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        System.out.println("# [after_spring_3_0][AppRunner5] conversionService: " + conversionService.getClass().toString());
+        /**
+         * 현재 등록되어 있는 Converter들을 모두 확인하는 방법.
+         * conversionService를 출력하면 됨.
+         */
+        System.out.println("# [after_spring_3_0][AppRunner5] conversionService: " + conversionService);
+
+        /**
+         * conversionService의 클래스 출력.
+         */
+        System.out.println("# [after_spring_3_0][AppRunner5] conversionService class: " + conversionService.getClass().toString());
     }
 
 }
