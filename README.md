@@ -181,6 +181,12 @@ StandardEvaluationContext context = new StandardEvaluationContext(bean)
 Expression expression = parser.parseExpression("SpEL 표현식")
 String value = expression.getvalue(context, String.class)
 </pre>
+<pre>
+ExpressionParser parser = new SpelExpressionParser();
+Expression expression = parser.parseExpression("2 + 100");
+Integer value2 = expression.getValue(Integer.class); // 이 때 SpEL도 ConversionService를 사용한다.
+System.out.println("# [SpEL][AppRunner6] value2: " + value2);
+</pre>
 
 ### SpEL 어디에서 사용?
 - @Value 애노테이션<br/>
@@ -199,7 +205,5 @@ Query 애노테이션 <br/>
 https://spring.io/blog/2014/07/15/spel-support-in-spring-data-jpa-query-definitions <br/>
 - Thymeleaf <br/>
 https://blog.outsider.ne.kr/997 <br/>
-
-
 
 <br/><br/>

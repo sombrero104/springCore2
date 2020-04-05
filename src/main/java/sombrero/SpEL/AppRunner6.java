@@ -3,6 +3,9 @@ package sombrero.SpEL;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
+import org.springframework.expression.Expression;
+import org.springframework.expression.ExpressionParser;
+import org.springframework.expression.spel.standard.SpelExpressionParser;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -52,6 +55,13 @@ public class AppRunner6 implements ApplicationRunner {
         System.out.println("# [SpEL][AppRunner6] spring: " + spring);
         System.out.println("# [SpEL][AppRunner6] sampleData: " + sampleData);
         System.out.println("================================================");
+
+        ExpressionParser parser = new SpelExpressionParser();
+        Expression expression = parser.parseExpression("2 + 100");
+        Integer value2 = expression.getValue(Integer.class); // 이 때 SpEL도 ConversionService를 사용한다.
+        System.out.println("# [SpEL][AppRunner6] value2: " + value2);
+        System.out.println("================================================");
+
     }
 
 }
