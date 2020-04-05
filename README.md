@@ -196,6 +196,7 @@ https://docs.spring.io/spring-security/site/docs/3.0.x/reference/el-access.html 
 Query 애노테이션 <br/>
 https://spring.io/blog/2014/07/15/spel-support-in-spring-data-jpa-query-definitions <br/>
 - Thymeleaf <br/>
+https://blog.outsider.ne.kr/997 <br/>
 
 https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions-language-ref <br/>
 
