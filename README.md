@@ -164,3 +164,13 @@ JPA에는 이미 Converter가 이미 들어있음.<br/>
 
 <br/><br/>
 
+# SpEL (스프링 Expression Language)
+### 스프링 EL이란?
+- 객체 그래프 조회하고 조작하는 기능을 제공한다.<br/>
+- Unified EL과 비슷하지만, 메소드 호출을 지원하며, 문자열 템플릿 기능도 제공한다.<br/>
+- OGNL, MVEL, JBOss EL 등 자바에서 사용할 수 있는 여러 EL이 있지만,<br/>
+SpEL은 모든 스프링 프로젝트 전반에 걸쳐 사용할 EL로 만들었다.<br/>
+- 스프링 3.0 부터 지원.<br/>
+
+
+<br/><br/>
